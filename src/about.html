@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Cultivate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#fcfcfc] text-gray-800 font-sans flex flex-col min-h-screen">
+    <header class="py-4 md:py-10 px-4 ">
+        <section class="flex justify-between items-center max-w-300 mx-auto ">
+
+            <a href="index.html" class="text-2xl font-bold text-emerald-500">Cultivate</a>
+        
+
+            <nav class="hidden lg:block">
+                <ul class="flex items-center gap-10">
+                    <li><a href="index.html" class="pb-1 text-xl text-gray-600 hover:text-emerald-500 hover:border-b hover:border-b-emerald-500 ">Home</a></li>
+                    <li><a href="about.html" class="pb-1 text-xl text-gray-600 hover:text-emerald-500 hover:border-b hover:border-b-emerald-500 ">About Us</a></li>
+                    <li><a href="#" class="pb-1 text-xl text-gray-600 hover:text-emerald-500 hover:border-b hover:border-b-emerald-500 ">Course</a></li>
+                    <li><a href="#" class="pb-1 text-xl text-gray-600 hover:text-emerald-500 hover:border-b hover:border-b-emerald-500 ">Instructors</a></li>
+                </ul>
+            </nav>
+
+                <!-- Auth Buttons -->
+            <div class="hidden lg:flex items-center gap-10">
+                    <button class="py-3 px-9 text-emerald-400 border border-emerald-200 rounded-2xl cursor-pointer font-semibold text-lg hover:bg-emerald-50">Login</button>
+                    <button class="py-3 px-9 text-white bg-emerald-500 rounded-2xl cursor-pointer font-semibold text-lg hover:bg-emerald-700">Sign
+                     Up</button>
+            </div>
+        
+            <label for="check" class="lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                       fill="#000000">
+                 <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg>
+                </svg>
+            </label>
+        </section>
+            <input type="checkbox" id="check" class="peer" hidden>
+            <nav class="mt-4 hidden peer-checked:block">
+                <ul class="flex flex-col  gap-5">
+                     <li><a href="index.html" class="pb-1 text-xl text-gray-600">Home</a>
+                        </li>
+                        <li><a href="about.html" class="pb-1 text-xl text-gray-600">About
+                        Us</a></li>
+                        <li><a href="" class="pb-1 text-xl text-gray-600">Course</a>
+                        </li>
+                        <li><a href="" class="pb-1 text-xl text-gray-600">Instructors</a>
+                     </li>
+                </ul>
+                <div class="flex flex-col gap-5">
+                        <button
+                    class="py-3 px-9 text-emerald-400 border border-emerald-200 rounded-2xl cursor-pointer font-semibold text-lg hover:bg-emerald-50">Login</button>
+                        <button
+                            class="py-3 px-9 text-white bg-emerald-500 rounded-2xl cursor-pointer font-semibold text-lg hover:bg-emerald-700">Sign
+                            Up</button>
+                </div>
+            </nav>
+        
+    </header>
+    <!-- 2. MAIN CONTENT -->
+    <main class="grow w-full max-w-4xl mx-auto px-6 py-16 md:py-24">
+        
+        <!-- Header Section -->
+        <div class="text-center mb-14">
+            <h1 class="text-[40px] md:text-5xl font-extrabold text-gray-900 mb-4">About Us</h1>
+            <p class="text-emerald-500 font-medium text-lg">Empowering students since 2024</p>
+        </div>
+
+        <!-- Intro Text -->
+        <p class="text-gray-600 text-xl md:text-lg leading-relaxed text-center mb-16 max-w-3xl mx-auto">
+            Welcome to <strong class="text-gray-900">Cultivate</strong>. We are a team of dedicated educators committed to making high-quality tutoring accessible to everyone. Our platform connects students with the world's best instructors in a virtual environment designed for growth.
+        </p>
+
+        <!-- Mission & Vision Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
+            
+            <!-- Mission Card -->
+            <div class="bg-[#f8f9fa] p-8 rounded-lg border-l-4 border-emerald-500 shadow-sm">
+                <h2 class="text-xl font-bold text-gray-900 mb-3">Our Mission</h2>
+                <p class="text-gray-600 text-xl leading-relaxed">
+                    To provide personalized coaching that builds confidence, masters complex subjects, and delivers measurable results for every student.
+                </p>
+            </div>
+
+            <!-- Vision Card -->
+            <div class="bg-[#f8f9fa] p-8 rounded-lg border-l-4 border-emerald-500 shadow-sm">
+                <h2 class="text-xl font-bold text-gray-900 mb-3">Our Vision</h2>
+                <p class="text-gray-600 text-xl leading-relaxed">
+                    To create a global community where knowledge is shared freely and every learner has the tools to reach their full potential.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Why Choose Us Section -->
+        <div class="max-w-350">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">Why Choose Us?</h2>
+            <ul class="space-y-4 text-gray-600 text-xl md:text-base">
+                <li class="flex items-start">
+                    <span class="text-black mr-3 mt-0">•</span>
+                    <span><strong class="text-gray-900">Expert Tutors:</strong> Hand-picked instructors with proven track records.</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-black mr-3 mt-0">•</span>
+                    <span><strong class="text-gray-900">Flexible Learning:</strong> Study from anywhere, at any time that suits you.</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-black mr-3 mt-0">•</span>
+                    <span><strong class="text-gray-900">Interactive Tools:</strong> Modern technology to make online learning feel personal.</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-black mr-3 mt-0">•</span>
+                    <span><strong class="text-gray-900">Affordable Rates:</strong> Quality education shouldn't break the bank.</span>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer class="bg-[#f8f9fa] border-t border-gray-200 py-10">
+        <div class="max-w-350 mx-auto px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-8 md:gap-4">
+                
+                <div class="flex flex-col text-center md:text-left">
+                    <span class="text-2xl font-bold text-emerald-500 mb-2">Cultivate</span>
+                    <p class="text-xl text-gray-500">Empowering students through personalized coaching.</p>
+                </div>
+
+                <div class="flex gap-6 md:gap-8 text-xl font-medium text-gray-700 ">
+                    <a href="#" class="text-lg hover:text-emerald-600">Privacy Policy</a>
+                    <a href="#" class="text-lg hover:text-emerald-600">Terms of Service</a>
+                    <a href="#" class="text-lg hover:text-emerald-600">Contact Us</a>
+                </div>
+
+                <div class="text-sm text-gray-400 text-center md:text-right">
+                    &copy; 2024 Cultivate. All rights reserved.
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
